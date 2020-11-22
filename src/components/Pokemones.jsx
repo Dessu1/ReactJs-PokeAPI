@@ -23,7 +23,13 @@ const Pokemones = () => {
 
   return (
     <div className='container-fluid'>
-      <h1 className='text-center display-4'>Lista de pokemones</h1>
+      <div className='text-center'>
+        <h1 className='display-4'>Lista de pokemones</h1>
+        <span className='text-muted '>
+          El tiempo de carga de los pokemones esta ligado al tiempo de respuesta
+          de la API
+        </span>
+      </div>
 
       <hr />
 
